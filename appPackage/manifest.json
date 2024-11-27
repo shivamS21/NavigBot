@@ -1,0 +1,62 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.17",
+    "version": "1.0.0",
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/privacy",
+        "termsOfUseUrl": "https://www.example.com/termofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "NavigBud",
+        "full": "Navigation Buddy"
+    },
+    "description": {
+        "short": "Useful to find fellow folk's desk or a conference room",
+        "full": "Navigation Buddy is a comprehensive office navigation tool designed to help you find desks, conference rooms, and other key locations within your office space. Whether you're new to the office or simply need to locate a meeting room quickly, Navigation Buddy offers an intuitive interface and real-time guidance to ensure you reach your destination efficiently. With features like detailed floor maps, search functionality, and personalized navigation tips, this app is your go-to solution for seamless office navigation."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "12345678-90ab-cdef-1234-567890abcdef",
+            "scopes": [
+                "personal",
+                "team",
+                "groupChat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupChat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "helloWorld",
+                            "description": "A helloworld command to send a welcome message"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "example.com"
+    ]
+}

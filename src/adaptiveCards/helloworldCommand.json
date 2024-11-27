@@ -1,0 +1,87 @@
+
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://www.shutterstock.com/shutterstock/photos/2327658919/display_1500/stock-vector-digital-hand-set-location-on-map-with-two-pins-ai-technology-in-gps-innovation-delivery-map-2327658919.jpg",
+              "size": "Medium",
+              "style": "Person"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "📌 Welcome to NavigBud 📌",
+              "size": "Large",
+              "weight": "Bolder",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "I am your navigation buddy. I will help you reach your destination conference room in just 2 steps.",
+      "spacing": "small",
+      "wrap": true
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Location:",
+          "value": "Hyderabad Office"
+        },
+        {
+          "title": "Contact:",
+          "value": "barbellbros@hackday.mw.com"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "auto",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "-Type /help to let me guide you.",
+              "spacing": "small",
+              "wrap": true,
+              "horizontalAlignment": "left"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "View HYD-Floor-2-Plan",
+      "url": "https://mathworks-my.sharepoint.com/personal/flogatto_mathworks_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fflogatto%5Fmathworks%5Fcom%2FDocuments%2FShared%20with%20Everyone%2FProjects%2FOffices%2FIN%2DHYD%5Foffice%5Fmove%2FPiyush%5FDocuments%2FFloor%20plans%20an%20AV%2F2ND%20FLOOR%20INTERIOR%20LAYOUT%2Epdf&parent=%2Fpersonal%2Fflogatto%5Fmathworks%5Fcom%2FDocuments%2FShared%20with%20Everyone%2FProjects%2FOffices%2FIN%2DHYD%5Foffice%5Fmove%2FPiyush%5FDocuments%2FFloor%20plans%20an%20AV"
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "View HYD-Floor-3-Plan",
+      "url": "https://mathworks-my.sharepoint.com/personal/flogatto_mathworks_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fflogatto%5Fmathworks%5Fcom%2FDocuments%2FShared%20with%20Everyone%2FProjects%2FOffices%2FIN%2DHYD%5Foffice%5Fmove%2FPiyush%5FDocuments%2FFloor%20plans%20an%20AV%2F3RD%20FLOOR%20INTERIOR%20LAYOUT%2Epdf&parent=%2Fpersonal%2Fflogatto%5Fmathworks%5Fcom%2FDocuments%2FShared%20with%20Everyone%2FProjects%2FOffices%2FIN%2DHYD%5Foffice%5Fmove%2FPiyush%5FDocuments%2FFloor%20plans%20an%20AV"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}
